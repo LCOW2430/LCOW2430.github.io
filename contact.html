@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Las Frias: Contact</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/bucket.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <a href="index.html"><img id="logo" src="img/logo.png" alt="Las Frias Logo"></a>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="team.html">Our Team</a>
+        <a href="specials.html">Specials</a>
+        <a href="training.html">Training</a>
+        <a href="media.html">Media</a>
+        <a href="faqs.html">FAQs</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+
+    <!-- Hero Image-->
+    <div id="hero" class="desktop">
+        <img src="img/banner.jpg" alt="Ice bucket with champaignes in a beautiful day">
+    </div>
+
+    <main>
+        <form action="#" method="POST">
+            <fieldset>
+                <legend>Contact Form</legend>
+                <ol>
+                    <li>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </li>
+                    <li>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </li>
+                    <li>
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </li>
+                    <li>
+                        <label>Gender:</label><br>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Male</label><br>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label><br>
+                        <input type="radio" id="other" name="gender" value="other">
+                        <label for="other">Other</label>
+                    </li>
+                    <li>
+                        <label for="age">Age:</label>
+                        <input type="number" id="age" name="age">
+                    </li>
+                    <li>
+                        <label for="country">Country:</label>
+                        <select id="country" name="country">
+                            <option value="usa">USA</option>
+                            <option value="canada">Canada</option>
+                            <option value="uk">UK</option>
+                            <option value="australia">Australia</option>
+                        </select>
+                    </li>
+                    <li>
+                        <label for="terms">Agree to terms:</label>
+                        <input type="checkbox" id="terms" name="terms" required>
+                    </li>
+                </ol>
+            </fieldset>
+            <button type="submit">Submit Request</button>
+            <button type="reset">Reset Form</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; Copyright 2099. All Rights Reserved. <br>
+        <a href="mailto:info@lasfrias.com">info@lasfrias.com</a><br>
+        Nicolas Peralta &nbsp; C0932238</p>
+    </footer>
+</body>
+</html>
