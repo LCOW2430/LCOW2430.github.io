@@ -248,7 +248,7 @@ footer p {
     background-color: #ddd;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 800px) {
 
     .mobile {
         display: none;
